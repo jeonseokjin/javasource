@@ -9,6 +9,5 @@ import lombok.ToString;
 @ToString
 public class Account {
 	private String no;
-	private String owner;
 	private int balance;
 }
