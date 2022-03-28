@@ -10,4 +10,9 @@ import lombok.ToString;
 public class Account {
 	private String no;
 	private int balance;
+	private String owner;
+	
+	public void deposit() {
+		System.out.println("deposit");
+	}
 }
